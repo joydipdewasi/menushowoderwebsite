@@ -1,42 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600;700&display=swap');
 @import "tailwindcss";
 
-/* 1. Enable Smooth Scrolling for the whole page */
+/* ── Fonts ─────────────────────────────────────────────────────────────────── */
+.font-display { 
+  font-family: 'Playfair Display', serif; 
+}
+
+.font-body { 
+  font-family: 'DM Sans', sans-serif; 
+}
+
+/* ── Smooth Scrolling ──────────────────────────────────────────────────────── */
 html {
   scroll-behavior: smooth;
 }
 
-/* 2. Fix the Navbar Overlap 
-   Since the navbar is sticky, we add a margin so the 
-   titles don't get covered when you click a link.
-*/
+/* ── Navbar offset ── */
 section {
   scroll-margin-top: 80px;
-  min-height: 50vh; /* Ensures sections take up space */
+  min-height: 50vh;
 }
 
-/* 3. Global Styles */
+/* ── Global base ───────────────────────────────────────────────────────────── */
 body {
-  color: #111827; /* Gray-900 */
-  background-color: #f9fafb; /* Gray-50 */
+  font-family: 'DM Sans', sans-serif;
+  background-color: #0A0A0A;
+  color: #ffffff;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
 }
 
-/* 4. Custom Blue Scrollbar */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* ── Custom dark scrollbar ─────────────────────────────────────────────────── */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
+  background: #0A0A0A;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2563eb; /* Blue-600 */
-  border-radius: 10px;
+  background: #27272A;
+  border-radius: 9999px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #1d4ed8;
+  background: #3F3F46;
 }

@@ -1,22 +1,19 @@
 import "./globals.css";
-import Navbar from "./navber/page"; // Import your navbar
 
 export const metadata = {
-  title: "My Business",
-  description: "Table booking and Digital Menu",
+  title: "DigiDine — Digital Menu, Orders & Table Booking",
+  description: "One platform for your entire restaurant. Digital menus, table reservations, live orders, and WhatsApp billing.",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-gray-50 flex flex-col min-h-screen">
-        {/* Navbar stays here so it never disappears */}
-        <Navbar />
-        
-        {/* This main area will be scrollable */}
-        <main className="grow pt-4">
-          {children}
-        </main>
+      <body className="margin-0 padding-0">
+        {/* We removed the Navbar from here because it is already 
+            called inside your app/page.jsx. This prevents the 
+            "Double Navbar" bug.
+        */}
+        {children}
       </body>
     </html>
   );
