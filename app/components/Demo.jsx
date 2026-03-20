@@ -653,6 +653,14 @@ const GALLERY = [
     title: "Order food with WhatsApp billing, daily summary, and rating system.",
     desc: "Here you can see how food is ordered from a digital menu via QR code, along with WhatsApp billing, daily summary, rating system, and more features",
   },
+    {
+    type: "image",
+    src: "/qrandadmin.png",
+    tag: "Qr code + Admin Panel",
+    category: "images",
+    title: "Qr code and Amin panel",
+    desc: "This is our QR code and admin panel image",
+  },
   // {
   //   type: "video",
   //   src: "/",
@@ -662,14 +670,7 @@ const GALLERY = [
   //   title: "Complete Platform Walkthrough",
   //   desc: "Everything in one video — menu, orders, booking, and billing from start to finish.",
   // },
-  // {
-  //   type: "image",
-  //   src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1200&q=80",
-  //   tag: "Feature",
-  //   category: "images",
-  //   title: "Digital Menu Interface",
-  //   desc: "High-res photos, live pricing, and category filters that update instantly.",
-  // },
+
   // {
   //   type: "image",
   //   src: "https://images.unsplash.com/photo-1556745753-b2904692b3cd?auto=format&fit=crop&w=1200&q=80",
