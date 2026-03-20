@@ -210,7 +210,7 @@ export default function IntroductionPage() {
             className="flex items-center gap-8 pt-2"
           >
             {[
-              { val: 500, suffix: "+", label: "Restaurants" },
+              // { val: 500, suffix: "+", label: "Restaurants" },
               { val: 98, suffix: "%", label: "Satisfaction" },
               { val: 3, suffix: "x", label: "Sales Growth" },
             ].map((s) => (
