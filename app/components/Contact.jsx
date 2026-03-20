@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
 const LINKS = {
-  googleForm: "https://docs.google.com/forms/d/your-id-here/viewform",
+  googleForm: "https://forms.gle/GoGKJnEQM5YDGFYa9",
   whatsapp: "https://wa.me/91XXXXXXXXXX", // ← replace with your number
   instagram: "https://instagram.com/yourbusiness",
   facebook: "https://facebook.com/yourbusiness",

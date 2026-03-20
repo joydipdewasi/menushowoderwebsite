@@ -86,13 +86,20 @@ export default function IntroductionPage() {
   const imageY = useTransform(scrollYProgress, [0, 1], ["0%", "8%"]);
   const [mediaType] = useState("image");
 
+  // Watch Demo: scroll to #demo section smoothly
+  const handleWatchDemo = (e) => {
+    e.preventDefault();
+    const target = document.querySelector("#demo");
+    if (target) target.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
+
   return (
     <section
       ref={containerRef}
       className="relative w-full min-h-screen bg-[#0A0A0A] overflow-hidden font-sans"
     >
       {/* ── Google Fonts Import (Alternative to style-jsx) ── */}
-      <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+      <link href="https://forms.gle/GoGKJnEQM5YDGFYa9" rel="stylesheet" />
 
       {/* ── Ambient Background ─────────────────────────────────────── */}
       <div className="pointer-events-none absolute inset-0">
@@ -222,19 +229,25 @@ export default function IntroductionPage() {
             transition={{ duration: 0.6, delay: 1.2 }}
             className="flex flex-wrap items-center gap-4 pt-2 font-['DM_Sans']"
           >
-            <motion.button
+            {/* Boost Your Sales Now → opens Google Form in new tab */}
+            <motion.a
+              href="https://forms.gle/X2373Edrh3y8UYdE9"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="relative px-8 py-4 rounded-full font-bold text-sm text-black overflow-hidden group"
-              style={{ background: "linear-gradient(135deg, #F59E0B, #FBBF24)" }}
+              style={{ background: "linear-gradient(135deg, #F59E0B, #FBBF24)", textDecoration: "none" }}
             >
               <span className="relative z-10 flex items-center gap-2">
                 🚀 Boost Your Sales Now
               </span>
               <div className="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-            </motion.button>
+            </motion.a>
 
+            {/* Watch Demo → scrolls to #demo section */}
             <motion.button
+              onClick={handleWatchDemo}
               whileHover={{ scale: 1.04 }}
               whileTap={{ scale: 0.97 }}
               className="px-8 py-4 rounded-full font-bold text-sm text-white border border-white/15 hover:border-white/30 hover:bg-white/5 transition-all duration-300"

@@ -385,7 +385,7 @@ function MediaCard({ item, index, onClick }) {
 
 // ─── Main Page ────────────────────────────────────────────────────────────────
 export default function DemoPage() {
-  const GOOGLE_FORM = "https://docs.google.com/forms/d/your-id-here/viewform";
+  const GOOGLE_FORM = "https://forms.gle/GoGKJnEQM5YDGFYa9";
 
   // Inject Google Fonts without @import (avoids CSS parse error in Next.js/Turbopack)
   useEffect(() => {
@@ -394,7 +394,7 @@ export default function DemoPage() {
     const link = document.createElement("link");
     link.id   = id;
     link.rel  = "stylesheet";
-    link.href = "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&display=swap";
+    link.href = "https://forms.gle/GoGKJnEQM5YDGFYa9";
     document.head.appendChild(link);
   }, []);
 
