@@ -661,15 +661,15 @@ const GALLERY = [
     title: "Qr code and Amin panel",
     desc: "This is our QR code and admin panel image",
   },
-  {
-    type: "video",
-    src: "/fulldemo.mp4",
-    thumb: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
-    tag: "Full Demo",
-    category: "full-demo",
-    title: "Complete Platform Walkthrough",
-    desc: "Everything in one video — menu, orders, booking, and billing from start to finish.",
-  },
+  // {
+  //   type: "video",
+  //   src: "/fulldemo.mp4",
+  //   thumb: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+  //   tag: "Full Demo",
+  //   category: "full-demo",
+  //   title: "Complete Platform Walkthrough",
+  //   desc: "Everything in one video — menu, orders, booking, and billing from start to finish.",
+  // },
 
   // {
   //   type: "image",
