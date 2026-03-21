@@ -626,15 +626,15 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 
 // ─── Gallery Data ─────────────────────────────────────────────────────────────
 const GALLERY = [
-  {
-    type: "video",
-    src: "/intro.mp4",
-    thumb: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-    tag: "Introduction",
-    category: "videos",
-    title: "Introduction",
-    desc: "See what we provide",
-  },
+  // {
+  //   type: "video",
+  //   src: "/intro.mp4",
+  //   thumb: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
+  //   tag: "Introduction",
+  //   category: "videos",
+  //   title: "Introduction",
+  //   desc: "See what we provide",
+  // },
   // {
   //   type: "video",
   //   src: "/fooadd.mp4",
@@ -644,15 +644,15 @@ const GALLERY = [
   //   title: "Food Add + Edit + Delet system",
   //   desc: "Here you can see how food is added, edited, deleted, and updated in real time, along with more features",
   // },
-  //  {
-  //   type: "video",
-  //   src: "/order.mp4",
-  //   thumb: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
-  //   tag: "Order Food + Billing + Summary ",
-  //   category: "videos",
-  //   title: "Order food with WhatsApp billing, daily summary, and rating system.",
-  //   desc: "Here you can see how food is ordered from a digital menu via QR code, along with WhatsApp billing, daily summary, rating system, and more features",
-  // },
+   {
+    type: "video",
+    src: "/order.mp4",
+    thumb: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
+    tag: "Order Food + Billing + Summary ",
+    category: "videos",
+    title: "Order food with WhatsApp billing, daily summary, and rating system.",
+    desc: "Here you can see how food is ordered from a digital menu via QR code, along with WhatsApp billing, daily summary, rating system, and more features",
+  },
     {
     type: "image",
     src: "/qrandadmin.png",
