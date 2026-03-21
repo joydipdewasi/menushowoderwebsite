@@ -626,31 +626,23 @@ import { motion, useInView, AnimatePresence } from "framer-motion";
 
 // ─── Gallery Data ─────────────────────────────────────────────────────────────
 const GALLERY = [
-  // {
-  //   type: "video",
-  //   src: "/intro.mp4",
-  //   thumb: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-  //   tag: "Introduction",
-  //   category: "videos",
-  //   title: "Introduction",
-  //   desc: "See what we provide",
-  // },
-  // {
-  //   type: "video",
-  //   src: "/fooadd.mp4",
-  //   thumb: "/foodadd.jpg",
-  //   tag: "Food Add + Edit + Delet",
-  //   category: "videos",
-  //   title: "Food Add + Edit + Delet system",
-  //   desc: "Here you can see how food is added, edited, deleted, and updated in real time, along with more features",
-  // },
-  {
+ 
+ {
     type: "image",
     src: "/qrandadmin.png",
     tag: "Qr code + Admin Panel",
     category: "images",
     title: "Qr code and Amin panel",
     desc: "This is our QR code and admin panel image",
+  },
+   {
+    type: "video",
+    src: "/foodaddedit.mp4",
+    thumb: "/foodadd.jpg",
+  tag: "Food Add + Edit + Delet",
+    category: "videos",
+    title: "Food Add + Edit + Delet system",
+    desc: "Here you can see how food is added, edited, deleted, and updated in real time, along with more features",
   },
    {
     type: "video",
@@ -680,24 +672,6 @@ const GALLERY = [
     title: "Complete Platform Walkthrough",
     desc: "Everything in one video — menu, orders, booking, and billing from start to finish.",
   },
-
-  // {
-  //   type: "image",
-  //   src: "https://images.unsplash.com/photo-1556745753-b2904692b3cd?auto=format&fit=crop&w=1200&q=80",
-  //   tag: "Feature",
-  //   category: "images",
-  //   title: "WhatsApp Billing",
-  //   desc: "Automated invoices with itemised bills sent straight to the customer's phone.",
-  // },
- 
-  // {
-  //   type: "image",
-  //   src: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=1200&q=80",
-  //   tag: "Feature",
-  //   category: "images",
-  //   title: "Order Management Dashboard",
-  //   desc: "Kitchen display, live order queue, and status updates all in one screen.",
-  // },
   
 ];
 
