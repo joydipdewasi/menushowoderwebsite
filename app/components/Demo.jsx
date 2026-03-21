@@ -644,6 +644,14 @@ const GALLERY = [
   //   title: "Food Add + Edit + Delet system",
   //   desc: "Here you can see how food is added, edited, deleted, and updated in real time, along with more features",
   // },
+  {
+    type: "image",
+    src: "/qrandadmin.png",
+    tag: "Qr code + Admin Panel",
+    category: "images",
+    title: "Qr code and Amin panel",
+    desc: "This is our QR code and admin panel image",
+  },
    {
     type: "video",
     src: "/order.mp4",
@@ -656,29 +664,22 @@ const GALLERY = [
     {
     type: "video",
     src: "/tablebooking.mp4",
-    thumb: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
+    thumb: "/tabilbook.webp",
     tag: " Table Booking + WhatsApp confirmation (Accept/Reject) massage ",
     category: "videos",
     title: "Table Booking + WhatsApp confirmation (Accept/Reject) massage",
     desc: "Here you can see how the table booking process works",
   },
-    {
-    type: "image",
-    src: "/qrandadmin.png",
-    tag: "Qr code + Admin Panel",
-    category: "images",
-    title: "Qr code and Amin panel",
-    desc: "This is our QR code and admin panel image",
+    
+  {
+    type: "video",
+    src: "/fulldemo.mp4",
+    thumb: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    tag: "Full Demo",
+    category: "full-demo",
+    title: "Complete Platform Walkthrough",
+    desc: "Everything in one video — menu, orders, booking, and billing from start to finish.",
   },
-  // {
-  //   type: "video",
-  //   src: "/fulldemo.mp4",
-  //   thumb: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
-  //   tag: "Full Demo",
-  //   category: "full-demo",
-  //   title: "Complete Platform Walkthrough",
-  //   desc: "Everything in one video — menu, orders, booking, and billing from start to finish.",
-  // },
 
   // {
   //   type: "image",
