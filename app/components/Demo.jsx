@@ -654,6 +654,15 @@ const GALLERY = [
     desc: "Here you can see how food is ordered from a digital menu via QR code, along with WhatsApp billing, daily summary, rating system, and more features",
   },
     {
+    type: "video",
+    src: "/tablebooking.mp4",
+    thumb: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=800&q=80",
+    tag: " Table Booking + WhatsApp confirmation (Accept/Reject) massage ",
+    category: "videos",
+    title: "Table Booking + WhatsApp confirmation (Accept/Reject) massage",
+    desc: "Here you can see how the table booking process works",
+  },
+    {
     type: "image",
     src: "/qrandadmin.png",
     tag: "Qr code + Admin Panel",
