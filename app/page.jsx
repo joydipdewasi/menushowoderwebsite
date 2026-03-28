@@ -174,6 +174,7 @@ import Introduction from "./components/Introduction";
 import Demo from "./components/Demo";
 import Subscription from "./components/subscription";
 import Contact from "./components/Contact";
+import Keyfeture from "./components/keyfeture";
 
 export const metadata = {
   title: "DigiDine — Digital Menu, Orders & Table Booking",
@@ -191,6 +192,11 @@ export default function Home() {
 
         <section id="introduction" className="scroll-mt-16">
           <Introduction />
+        </section>
+        <SectionDivider />
+
+        <section id="Keyfeture" className="scroll-mt-16">
+          <Keyfeture/>
         </section>
 
         <SectionDivider />
